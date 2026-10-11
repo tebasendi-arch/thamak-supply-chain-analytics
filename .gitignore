@@ -1,0 +1,25 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Power BI temporary files
+~*.pbix
+*.pbit
+
+# Local/private data
+*.xlsx
+*.xls
+/data/raw/*
+/data/processed/*
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
